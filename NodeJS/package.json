@@ -1,0 +1,13 @@
+{
+    "name": "dersplus-api",
+    "version": "1.0.0",
+    "description": "Node.js ile DersPlus API kullanımı",
+    "main": "get_class.js",
+    "scripts": {
+      "start": "node get_class.js"
+    },
+    "dependencies": {
+      "axios": "^0.23.0"
+    }
+  }
+  
