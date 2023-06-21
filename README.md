@@ -1,12 +1,12 @@
 
-# OGM Materyal Konu Özetleri API
+# OGM MEB Ortaöğretim Ders Kitapları PDF API
 
-Dersplus API'nı kullanarak https://ogmmateryal.eba.gov.tr/konu-ozetleri adresinde yayınlanan konu özetlerini PHP, NodeJs ve Python örneklerini kullanarak çekebilirsiniz. API kullanımı aşağıda verilmiştir.
+Dersplus API'nı kullanarak https://ogmmateryal.eba.gov.tr/ adresinde yayınlanan PDF ders kitaplarını PHP, NodeJs ve Python örneklerini kullanarak çekebilirsiniz. API kullanımı aşağıda verilmiştir.
 
 
 ## API Kullanımı
 
-#### Konu özetlerinde arama yap
+#### Ders kitaplarında arama yap
 
 ```http
   GET https://api.dersplus.net/ogm/ders-kitaplari/search
@@ -24,7 +24,7 @@ Dersplus API'nı kullanarak https://ogmmateryal.eba.gov.tr/konu-ozetleri adresin
 | Parametre almaz |
 | :-------- |
 
-#### Sınıfa göre konu özetlerini getir
+#### Sınıfa göre ders kitaplarını getir
 
 ```http
   GET https://api.dersplus.net/ogm/ders-kitaplari/fetch-by-class
